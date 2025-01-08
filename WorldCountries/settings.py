@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'WorldCountries.wsgi.application'
 DATABASES = DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',  # Backend for PostgreSQL
-            'NAME': 'countries',                       # Database name
+            'NAME': 'countriesdb',                       # Database name
             'USER': 'postgres',                        # PostgreSQL username
-            'PASSWORD': 'your_password',               # Password
+            'PASSWORD': 'toor',               # Password
             'HOST': '127.0.0.1',                       # Localhost
             'PORT': '5432',                            # Default PostgreSQL port
         }
